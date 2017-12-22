@@ -1,43 +1,77 @@
-<html>
+<html lang=en>
     <head>
-        <title>Fernando Serrano - Net-Centric</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Fernando Serrano</title>
+        <link rel='stylesheet' type='text/css' href='css/style.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <nav class="navbar">
-            <ul>
-                <a class="logo" href="#home"><img src='img/Logo.png'></a>
-                <li><a href="#about">About</a></li>
-                <li class="projects">
-                    <a href="#project" class="dropbtn">Projects</a>
-                    <div class="projects-content">
-                        <a href="CNT_4713">Net-Centric</a>
-                        <a href="CAP_4630">AI</a>
-                        <a href="CEN_4010">Software Eng</a>
-                    </div>
-                </li>
-                <li><a href="#contact_me">Contacts</a></li>
-            </ul>
+        <nav class='menuBar' id='menu'>
+            <!-- <div class='navbar-fixed-top'> -->
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <!-- </div> -->
         </nav>
         <article>
-            <section class="container-head">
-    			<h1>Fernando Serrano</h1>
-    			<h3>Software Engineer | Software Developer</h3>
-    		</section>
-            <section id="about" class="row">
-                <div class="col-xs-2"></div>
-                <div class="col-sm-3">
-                    <img src="img/profile_pic.jpg">
+            <section class='jumbotron' id='home'>
+                    <h1>Fernando Serrano</h1>
+            </section>
+
+            <section id='about'>
+                <h3>About Me</h3>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-xs-2'></div>
+                        <div class='col-xs-8'>
+                            <p>I'm a student, software engineer, travel enthusiast and local mentor. I've worked with several companies over the last couple of years to help them achieve there technology goals.</p>
+                            <p>I'm always in search of a workplace that challenges me and pushes me to the limit as well as a strong engineering culture</p>
+                        </div>
+                        <div class='col-xs-2'></div>
+                    </div>
                 </div>
-                <div class="container col-sm-4">
-                    <p>I'm a student, software engineer, travel enthusiast and
-                        local mentor. I've worked with several companies over the last
-                        couple of years to help them achieve there technology goals.</p>
-                    <p>I'm always in search of a workplace that challenges me and
-                       pushes me to the limit as well as a strong engineering culture.</p>
+            </section>
+
+            <section id='project'>
+                <h3>Projects</h3>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-xs-2'></div>
+                        <div class='col-xs-8'>
+                            <div class='p-gallery'>
+                                <div class='i-gallery'>
+                                    <img src='http://techtrends.tech/wp-content/uploads/2017/02/tech.jpg'></img>
+                                    <div class='desc'>Project 1</div>
+                                </div>
+                            </div>
+                            <div class='p-gallery'>
+                                <div class='i-gallery'>
+                                    <img src='https://wtvox.com/wp-content/uploads/2016/07/future-tech-top-15-artificial-intelligence-wtvox.com_.jpg'></img>
+                                    <div class='desc'>Project 2</div>
+                                </div>
+                            </div>
+                            <div class='p-gallery'>
+                                <div class='i-gallery'>
+                                    <img src='http://techtrends.tech/wp-content/uploads/2017/02/tech.jpg'></img>
+                                    <div class='desc'>Project 3</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class='col-xs-2'></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id='contact'>
+                <h3>Contact Me</h3>
+                <div class='row'>
                 </div>
             </section>
         </article>
